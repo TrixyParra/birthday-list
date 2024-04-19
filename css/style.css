@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     scroll-behavior: smooth;
+    font-family: "Mulish", sans-serif;
 }
 
 .container {
@@ -24,6 +27,7 @@ body {
 h2 {
     text-align: center;
     color: #003763;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -42,6 +46,7 @@ img {
 }
 
 .name {
+    font-weight: 600;
     margin-bottom: 5px;
 }
 
@@ -50,9 +55,10 @@ button {
     background-color: #49b6ff ;
     color: #fff;
     font-size: 18px;
+    font-weight: 600;
     border: none;
     border-radius: 5px;
-    padding: 15px;
+    padding: 10px;
     margin-top: 20px;
     cursor: pointer;
     transition: .3s;
