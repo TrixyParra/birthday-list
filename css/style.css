@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #003763;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.container {
+    background-color: #fff;
+    width: 330px;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 50px 50px 50px #00223d;
+}
+
+h2 {
+    text-align: center;
+    color: #003763;
+    margin-bottom: 20px;
+}
+
+.birthday-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.name {
+    margin-bottom: 5px;
+}
+
+button {
+    width: 100%;
+    background-color: #49b6ff ;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: #85c8ff;
+}
