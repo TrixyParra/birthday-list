@@ -34,6 +34,13 @@ h2 {
     margin-bottom: 15px;
 }
 
+img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .name {
     margin-bottom: 5px;
 }
